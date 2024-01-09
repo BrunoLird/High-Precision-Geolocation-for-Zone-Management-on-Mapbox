@@ -80,6 +80,7 @@ const AppMap = ({
       mapboxAccessToken={TOKEN}
       initialViewState={viewport}
       onViewportChange={(viewport) => setViewport(viewport)}
+      // Mpabox Style Here
       mapStyle="mapbox://styles/mapbox/streets-v9"
       onDblClick={handleAddClick}
       transitionDuration="200"
